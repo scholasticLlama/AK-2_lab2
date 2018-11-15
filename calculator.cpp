@@ -3,6 +3,11 @@
 int Calculator::Add (double a, double b)
 {
 <<<<<<< HEAD
+	LA-LA-LAND
+	LA-LA
+	NA-NA
+	TA-LA-AL-LA-AL
+	AAAAAAAAAAAAAAAAAAAAAAAAAA
 	return a + b + 0.5;
 >>>>>>> 4ad40a3 (fix truncation error)
 }
@@ -10,4 +15,9 @@ int Calculator::Add (double a, double b)
 int Calculator::Sub (double a, double b)
 {
     return Add (a, -b);
+}
+
+int Calculator::Mul (double a, double b)
+{
+    return a * b + 0.5;
 }
